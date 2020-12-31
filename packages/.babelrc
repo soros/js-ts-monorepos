@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": 10
+                }
+            }
+        ], // oldest supported Node.js version (IE11 is much older than Node 10)
+        "@babel/preset-typescript"
+    ]
+}
