@@ -13,7 +13,7 @@
  * </a>
  *
  * If you want to watch a recorded video of this course, look for it
- * on <a href="https://frontendmasters.com" target="_blank">FrontEnd Masters</a>
+ * on <a href="https://frontendmasters.com" target="_blank">FrontEnd Masters </a>
  *
  *
  * @remarks
