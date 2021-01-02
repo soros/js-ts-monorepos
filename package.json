@@ -11,6 +11,9 @@
   ],
   "scripts": {
     "greet": "scripty",
+    "api-docs": "scripty",
+    "start": "scripty",
+    "watch": "scripty",
     "build": "scripty",
     "clean": "scripty",
     "lint": "scripty",
@@ -23,6 +26,8 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@microsoft/api-documenter": "^7.12.1",
+    "@microsoft/api-extractor": "^7.12.1",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
     "eslint": "^7.16.0",
@@ -40,5 +45,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "resolutions": {
+    "@types/react": "^16.14.2"
   }
 }

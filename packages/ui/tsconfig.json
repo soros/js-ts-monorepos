@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.settings.json",
+  "references": [
+    { "path": "../types" },
+    { "path": "../utils" },
+    { "path": "../data" }
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "jsx": "react"
+  },
+  //"skipLibCheck": true, // WORKAROUND: https://stackoverflow.com/questions/52399839/duplicate-identifier-librarymanagedattributes
+  "include": ["src"]
+}
